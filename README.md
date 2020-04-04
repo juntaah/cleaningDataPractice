@@ -4,4 +4,6 @@ This repository contains the 'Human Activity Recognition Using Smartphones' data
 
 ## The script
 
-The run_analysis.R script combines the data in the training and test data sets and adds human-readable lables indicating the metric definitions and both the subject ID and activity type for each record. The complete, final dataset is stored to the variable all_df. A subset of this with columns relating only to the mean and standard deviation aggregations of the collected data is then stored to df_final. From here, the df_averages table summarises the mean of all the remaining data, grouped by subject ID and activity type.
+The run_analysis.R script combines the data in the training and test data sets and adds human-readable lables indicating the metric definitions and both the subject ID and activity type for each record.
+
+The complete, final dataset is stored to the variable all_df. A subset of this with columns relating only to the mean and standard deviation aggregations of the collected data is then stored to df_final. From here, the df_averages table summarises the mean of all the remaining data, grouped by subject ID and activity type. This last table is output to the tidy_table.txt file which has been prepared to be read using read.table().
