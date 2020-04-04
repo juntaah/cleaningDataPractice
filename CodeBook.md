@@ -11,5 +11,5 @@ This code book provides a colummn reference for the tidy_table.txt file outputte
   4. SITTING
   5. STANDING
   6. LAYING
-* Columns 4 - 69: these each contain normalised data points on three axes X, Y and Z from the devices various sensors as described in ..the documentation of the data source [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+* Columns 4 - 69: these each contain normalised data points on three axes X, Y and Z from the devices various sensors as described in the documentation of the data source [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
