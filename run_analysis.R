@@ -31,9 +31,11 @@ df_final <- all_df[,c(1:3,grep("(mean|std)\\(\\)",names(all_df)))]
 
 library(dplyr)
 
-df_averages <- df_final %>%
+df_averages <- df_final %>%f
   group_by(subjectId,activityId,activityName) %>%
   arrange(subjectId,activityId,activityName) %>%
   summarise_all(mean)
+
+write.table(df_averages,"tidy_table.txt")
 
 View(df_averages)
